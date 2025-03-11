@@ -1,0 +1,195 @@
+.ring-box {
+  background: rgb(178,84,192);
+  background: radial-gradient(circle, rgba(178,84,192,1) 19%, rgba(140,84,192,1) 49%, rgba(140,84,192,1) 63%);
+  min-height: 100vh; /* Fix for full viewport height */
+  width: 100%; 
+  font-family: "Poppins", sans-serif;
+  /* Extra space for better layout */
+}
+
+.ring-box h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  background-color: aliceblue;
+  padding: 10px 10px;
+}
+
+.ring {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  width: 280px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgb(224, 224, 224); 
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out; /* Smooth hover */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  background-color: rgb(208, 208, 179);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;  
+  object-fit: cover; 
+  border-radius: 5px;
+}
+
+.card h3 {
+  color: #ff6f61;
+}
+
+.card h3, .card p {
+  margin: 5px 0;
+}
+
+.card .p2 {
+  font-size: 13px;
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1181f9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Poppins", sans-serif;
+}
+
+.buy-btn span {
+  padding: 5px;
+  font-size: 15px;
+  position: relative;
+  top: 2px;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap; /* For small screens */
+}
+
+.pagination span{
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.prev-btn, .next-btn {
+  padding: 10px 15px;
+  background-color: #bb3521;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.prev-btn:hover, .next-btn:hover,.home-btn button:hover {
+  background-color: #0056b3;
+}
+
+.home-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.home-btn button {
+  padding: 10px 10px;
+  background-color: #bb3521;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.home-btn button:hover {
+  opacity: 0.8;
+}
+
+/* ✅ Fixed Layout Issues */
+@media (max-width: 768px) {
+  .ring {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  
+  .card {
+    width: 45%; /* 2 cards ek row me aayenge */
+  }
+
+  .pagination {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .ring {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cards ek row me */
+    gap: 10px;
+  }
+
+  .card {
+    width: 100%; 
+  }
+
+  .pagination {
+    flex-direction: row; /* Buttons ek line me rahenge */
+    justify-content: center;
+  }
+}
+
+/* ✅ 768px tak 2 cards per row */
+@media (max-width: 768px) {
+  .ring {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    gap: 10px;
+  }
+  
+  .card {
+    width: 100%;
+  }
+}
+
+/* ✅ 580px ke baad sirf 1 card per row */
+@media (max-width: 580px) {
+  .ring {
+    grid-template-columns: repeat(1, 1fr); /* 1 card per row */
+  }
+}
+

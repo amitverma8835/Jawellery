@@ -1,0 +1,144 @@
+/* Default styles */
+.contact {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: radial-gradient(circle, rgba(14,62,105,1) 15%, rgba(74,15,106,1) 68%, rgba(133,84,192,1) 100%);
+
+}
+
+.contact button {
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: rgba(233, 218, 7, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    border: 1px solid white;
+}
+
+.contact button:hover {
+    opacity: 0.8;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(49, 22, 104, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 40px;
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Center h1 */
+form h1 {
+    color: rgb(232, 176, 45);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+/* Input and Textarea */
+form input,
+form textarea {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+form textarea {
+    height: 100px;
+}
+
+.contact form button {
+    padding: 10px 13px;
+    background-color: rgb(90, 205, 146);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 400px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+form button:hover {
+    opacity: 0.8;
+}
+
+/* Responsive Design */
+
+/* For devices smaller than 671px */
+@media screen and (max-width: 671px) {
+    .contact {
+        padding: 10px;
+        gap: 20px;
+    }
+
+    form {
+        padding: 25px;
+        width: 95%;
+    }
+
+    form input,
+    form textarea,
+    form button {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    form h1 {
+        font-size: 22px;
+    }
+}
+
+/* For devices smaller than 480px */
+@media screen and (max-width: 480px) {
+    form {
+        padding: 20px;
+    }
+
+    form h1 {
+        font-size: 20px;
+    }
+
+    form button {
+        padding: 12px 16px;
+    }
+
+
+}
+
+@media (max-width: 671px) {
+    form textarea {
+        min-height: 100px; /* Prevent shrinking */
+        width: 100%;
+        max-width: 100%;
+    }
+}
+

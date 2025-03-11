@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  height: 70px; /* Increased height for better visual appeal */
+  padding: 0 40px; /* Removed top-bottom padding */
+}
+
+.app-logo h1 {
+  font-family: "Itim", serif;
+  font-weight: 600;
+  font-style: normal;
+  background: linear-gradient(to right, rgb(205, 186, 66), white);
+  background-clip: text;
+  color: transparent;
+}
+
+.nav-cart a {
+  color: rgb(212, 230, 10);
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.cart-box {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.cart-icon {
+  font-size: 35px; /* Size of the cart icon */
+  margin-right: 10px;
+}
+
+.cart-count {
+  font-size: 18px; /* Font size for the cart number */
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  color: white;
+  background-color: rgb(223, 27, 27);
+  border-radius: 50%;
+  padding: 1px 10px;
+  font-weight: 600;
+}
+
+@media (max-width:500px) {
+  .nav{
+    padding: 0 13px;
+  }
+
+  .app-logo h1{
+    font-size: 26px;
+  }
+
+  .cart-icon{
+    font-size: 31px;
+  }
+}

@@ -1,0 +1,176 @@
+[
+    {
+        "id": 1,
+        "name": "Ring",
+        "img": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "price": 200,
+        "about": "Stylish and elegant Ring"
+    },
+    {
+        "id": 2,
+        "name": "Bracelet",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP4TSarB6Tr8gH2zBKeIldGbOlgRUqg1mjfw&s",
+        "price": 300,
+        "about": "Perfect everyday wear Bracelet"
+    },
+    {
+        "id": 3,
+        "name": "Necklaces",
+        "img": "https://d25g9z9s77rn4i.cloudfront.net/uploads/product/973/1714141994_266cf030ab9b941b8e52.png",
+        "price": 100,
+        "about": "Shines with sophistication"
+    },
+    {
+        "id": 4,
+        "name": "Ring",
+        "img": "https://images.unsplash.com/photo-1554047310-ab6170fc7b10?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2VkZGluZyUyMHJpbmd8ZW58MHx8MHx8fDA%3D",
+        "price": 100,
+        "about": "Perfect for gifting Ring"
+    },
+    {
+        "id": 5,
+        "name": "Bracelet",
+        "img": "https://japam.in/cdn/shop/files/omgoldgrid_9e91d62c-7343-4980-ae7e-afef88feb1eb.jpg?v=1701152414&width=675",
+        "price": 300,
+        "about": "Adds a trendy touch"
+    },
+    {
+        "id": 6,
+        "name": "Necklaces",
+        "img": "https://www.sneharateria.com/cdn/shop/files/BeingIntricate-SouthIndianNecklaceModel_1200x1200.jpg?v=1685780133",
+        "price": 200,
+        "about": "Designed for royalty"
+    },
+    {
+        "id": 7,
+        "name": "Bracelet",
+        "img": "https://aadyaa.com/cdn/shop/files/DSC04226_b8ed3a69-c200-4f1e-ade4-0b88cbf023de.jpg?v=1718266426&width=1024",
+        "price": 300,
+        "about": "Lightweight and comfortable"
+    },
+    {
+        "id": 8,
+        "name": "Necklaces",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXT5gylfNwc2FDksbqQR-aBefo4kJZLkd6KokE8ivwxEUF1yBsUi67SThXL-L7V-ZXRlzz5Wa0gBcFnW3jTcsqjtMh7n7",
+        "price": 300,
+        "about": "Perfect statement piece Necklace"
+    },
+    {
+        "id": 9,
+        "name": "Ring",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYySX67jJpG9ZY3U_NxG51pBhbCChPlItNVA&s",
+        "price": 300,
+        "about": "Crafted with precision Ring"
+    },
+    {
+        "id": 10,
+        "name": "Bracelet",
+        "img": "https://silkandbloom.in/wp-content/uploads/2024/05/IMG-0049-800x800.jpg",
+        "price": 300,
+        "about": "Timeless fashion piece"
+    },
+    {
+        "id": 11,
+        "name": "Necklaces",
+        "img": "https://kinclimg4.bluestone.com/f_jpg,c_scale,w_1024,q_80,b_rgb:f0f0f0/giproduct/BISM0014N08_YAA18DIG6XXXXXXXX_ABCD00-PICS-00000-1024-33606.png",
+        "price": 300,
+        "about": "Graceful and elegant Necklace"
+    },
+    {
+        "id": 12,
+        "name": "Ring",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaXCOpekMVRy1V1LRMsJ_Rz1jvTbLa8OX7zw&s",
+        "price": 300,
+        "about": "Timeless beauty piece Ring"
+    },
+    {
+        "id": 12,
+        "name": "Necklaces",
+        "img": "https://kinclimg4.bluestone.com/f_jpg,c_scale,w_1024,q_80,b_rgb:f0f0f0/giproduct/BISM0014N08_YAA18DIG6XXXXXXXX_ABCD00-PICS-00000-1024-33606.png",
+        "price": 300,
+        "about": "Graceful and elegant Necklace"
+    },
+    {
+        "id": 13,
+        "name": "Necklaces",
+        "img": "https://kinclimg4.bluestone.com/f_jpg,c_scale,w_1024,q_80,b_rgb:f0f0f0/giproduct/BISM0014N08_YAA18DIG6XXXXXXXX_ABCD00-PICS-00000-1024-33606.png",
+        "price": 300,
+        "about": "Graceful and elegant Necklace"
+    },
+    {
+        "id": 14,
+        "name": "Necklaces",
+        "img": "https://kinclimg4.bluestone.com/f_jpg,c_scale,w_1024,q_80,b_rgb:f0f0f0/giproduct/BISM0014N08_YAA18DIG6XXXXXXXX_ABCD00-PICS-00000-1024-33606.png",
+        "price": 300,
+        "about": "Graceful and elegant Necklace"
+    },
+    {
+        "id": 15,
+        "name": "Necklaces",
+        "img": "https://kinclimg4.bluestone.com/f_jpg,c_scale,w_1024,q_80,b_rgb:f0f0f0/giproduct/BISM0014N08_YAA18DIG6XXXXXXXX_ABCD00-PICS-00000-1024-33606.png",
+        "price": 300,
+        "about": "Graceful and elegant Necklace"
+    },
+    {
+        "id": 16,
+        "name": "Necklaces",
+        "img": "https://kinclimg4.bluestone.com/f_jpg,c_scale,w_1024,q_80,b_rgb:f0f0f0/giproduct/BISM0014N08_YAA18DIG6XXXXXXXX_ABCD00-PICS-00000-1024-33606.png",
+        "price": 300,
+        "about": "Graceful and elegant Necklace"
+    }
+    ,
+    {
+        "id": 16,
+        "name": "Bracelet",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP4TSarB6Tr8gH2zBKeIldGbOlgRUqg1mjfw&s",
+        "price": 300,
+        "about": "Perfect everyday wear Bracelet"
+    },
+    
+    {
+        "id": 17,
+        "name": "Bracelet",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP4TSarB6Tr8gH2zBKeIldGbOlgRUqg1mjfw&s",
+        "price": 300,
+        "about": "Perfect everyday wear Bracelet"
+    },
+
+    
+    {
+        "id": 18,
+        "name": "Bracelet",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP4TSarB6Tr8gH2zBKeIldGbOlgRUqg1mjfw&s",
+        "price": 300,
+        "about": "Perfect everyday wear Bracelet"
+    },
+    
+    {
+        "id": 19,
+        "name": "Bracelet",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP4TSarB6Tr8gH2zBKeIldGbOlgRUqg1mjfw&s",
+        "price": 300,
+        "about": "Perfect everyday wear Bracelet"
+    },
+    {
+        "id": 20,
+        "name": "Ring",
+        "img": "https://images.unsplash.com/photo-1554047310-ab6170fc7b10?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2VkZGluZyUyMHJpbmd8ZW58MHx8MHx8fDA%3D",
+        "price": 100,
+        "about": "Perfect for gifting Ring"
+    },
+    
+    {
+        "id": 21,
+        "name": "Ring",
+        "img": "https://images.unsplash.com/photo-1554047310-ab6170fc7b10?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2VkZGluZyUyMHJpbmd8ZW58MHx8MHx8fDA%3D",
+        "price": 100,
+        "about": "Perfect for gifting Ring"
+    },
+    {
+        "id": 22,
+        "name": "Ring",
+        "img": "https://images.unsplash.com/photo-1554047310-ab6170fc7b10?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2VkZGluZyUyMHJpbmd8ZW58MHx8MHx8fDA%3D",
+        "price": 100,
+        "about": "Perfect for gifting Ring"
+    }
+]
